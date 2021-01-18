@@ -1,5 +1,7 @@
 # jumga
 
+Hi!
+
 ## Project setup
 ```
 npm install
