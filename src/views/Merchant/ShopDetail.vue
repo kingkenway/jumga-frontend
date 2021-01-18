@@ -1,11 +1,11 @@
 <template>
     <div class="w3-main w3-move-left w3-padding">
         <div class="w3-row">
-          <div class="w3-col l10 m9 s10 w3-xlarge">
+          <div class="w3-col l10 m9 s12 w3-xlarge">
             {{shop.name}} - {{$helpers.checkDescription(shop.description)}}
           </div>
 
-          <div class="w3-round w3-center w3-card w3-col l2 m3 s2 w3-padding w3-text-white dark-blue i-block" v-if="shop.is_active">
+          <div class="w3-round w3-center w3-card w3-col l2 m3 s12 w3-padding w3-text-white dark-blue i-block" v-if="shop.is_active">
             <router-link :to="{  name: 'add_product' }">+ Add Product</router-link>
           </div>
        </div>

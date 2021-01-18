@@ -14,12 +14,12 @@
 
                     <p><b>{{shop.name}}</b></p>
 
-                    <div class="w3-border w3-round-large w3-small i-block w3-padding-small">
+                    <div class="w3-border w3-round-large w3-margin-right margin-top w3-small i-block w3-padding-small">
                         DELIVERY: {{user.country.currency}} {{shop.delivery_fee}}
                     </div>
 
 
-                    <div class="w3-border w3-margin-left w3-round-large w3-small i-block w3-padding-small">
+                    <div class="w3-border w3-margin-right margin-top w3-round-large w3-small i-block w3-padding-small">
                         STATUS: 
                         <span v-if="shop.is_active">
                             Verified
