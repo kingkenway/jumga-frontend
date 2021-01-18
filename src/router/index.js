@@ -168,12 +168,6 @@ const routes = [
   },
 
   {
-    path: '/u/shop/:shopslug/checkout',
-    name: 'checkout',
-    component: () => import('../views/Shop/Checkout.vue')
-  },
-
-  {
     path: '/u/shop/:shopslug/checkout/success',
     name: 'success',
     component: () => import('../views/Shop/Success.vue')

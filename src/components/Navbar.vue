@@ -1,32 +1,27 @@
 <template>
-  <div id="nav" class="w3-contentx w3-bar">
+  <div id="nav" class="w3-contentx w3-bar w3-margin-bottom">
 
+      <div class="">
+        <router-link :to="{ name: 'home' }" class="w3-bar-item">
+            J . U . M . G . A
+        </router-link>
+      </div>
 
-    <div class="">
+      <div class="w3-right">
+          <div class="w3-right-align" v-if="!isLoggedIn">
+              <!-- <router-link :to="{ name: 'about' }" class="w3-bar-item">ABOUT</router-link> -->
+              <router-link :to="{ name: 'loginmerchant' }" class="w3-bar-item">LOGIN</router-link>
+              <router-link :to="{ name: 'signupmerchant' }" class="w3-bar-item item-nav w3-text-white w3-card">SIGNUP</router-link>
+          </div>
 
-        <div class="">
-          <router-link :to="{ name: 'home' }" class="w3-bar-item">
-              J . U . M . G . A
-          </router-link>
-        </div>
+          <div class="w3-right-align" v-else>
+              <router-link :to="{ name: 'profile' }" class="w3-bar-item">
+                  Hi, {{user.first_name}}
+              </router-link>
+              <router-link :to="{ name: 'logout' }" class="w3-bar-item item-nav w3-text-white w3-card">Logout</router-link>
+          </div>
 
-        <div class="w3-right">
-            <div class="w3-right-align" v-if="!isLoggedIn">
-                <!-- <router-link :to="{ name: 'about' }" class="w3-bar-item">ABOUT</router-link> -->
-                <router-link :to="{ name: 'loginmerchant' }" class="w3-bar-item">LOGIN</router-link>
-                <router-link :to="{ name: 'signupmerchant' }" class="w3-bar-item item-nav w3-text-white w3-card">SIGNUP</router-link>
-            </div>
-
-            <div class="w3-right-align" v-else>
-                <router-link :to="{ name: 'profile' }" class="w3-bar-item">
-                    Hi, {{user.first_name}}
-                </router-link>
-                <router-link :to="{ name: 'logout' }" class="w3-bar-item item-nav w3-text-white w3-card">Logout</router-link>
-            </div>
-
-        </div>
-
-    </div>
+      </div>
 
   </div>
 </template>

@@ -1,21 +1,7 @@
 <template>
     <div class="w3-contentx w3-padding">
 
-        <div
-            :style="{ 'background-image': 'linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(' +this.$helpers.setImg(current_shop.banner_image, 1)+  ')' }"
-            class="w3-padding w3-xlarge header">
-
-            <div class="i-block">
-                <img class="logo" :src="this.$helpers.setImg(current_shop.logo)" alt="" >
-            </div>
-            <div class="name i-block w3-padding">
-                {{current_shop.name}}
-                <br />
-                <span class="w3-medium">
-                    {{this.$helpers.checkDescription(current_shop.description)}}
-                </span>
-            </div>
-        </div>
+       <Topbar :current_shop="current_shop" />
 
         <br>
         
@@ -48,6 +34,7 @@
 <script>
 import { mapState, mapGetters, mapActions, mapMutations } from 'vuex'
 // import VueButtonSpinner from 'vue-button-spinner';
+import Topbar from '@/components/Shop/Topbar.vue'
 
 export default {
     name: "Success",
@@ -68,12 +55,15 @@ export default {
 
     computed: {
         ...mapState('shops', ['current_shop', 'cart', 'customer', 'server_data']),
-       
     },
 
     // components: {
     //     'button-spinner': VueButtonSpinner,
     // },
+
+    components: {
+        Topbar
+    },
 
 
 };
@@ -81,30 +71,6 @@ export default {
 </script>
 
 <style scoped>
-.header{
-    color: #fff;
-    height: 150px;
-    border-radius: 8px;
-    /* border: 3px dashed #ccc;
-    display: inline-block; */
-    /* margin: 0 auto;
-    text-align: center */
-}
-
-.logo{
-    margin-top: 30px;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-}
-
-.name{
-    vertical-align: middle;
-    margin-top: 30px;
-    font-weight: 800;
-    letter-spacing: 2px;
-}
-
 .item{
     margin-bottom: 10px;
 }
