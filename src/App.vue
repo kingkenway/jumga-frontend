@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <div id="">
       <!-- <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/login/merchant">Merchant Login</router-link> |
@@ -66,10 +66,10 @@ html{
   /* text-align: center; */
   color: #2c3e50;
 }
-
+/* 
 #nav {
   padding: 30px;
-}
+} */
 
 a{
   text-decoration: none;

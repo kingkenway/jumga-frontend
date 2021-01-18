@@ -1,5 +1,5 @@
 <template>
-  <div id="nav" class="w3-contentx w3-padding-small w3-bar">
+  <div id="nav" class="w3-contentx w3-bar">
 
 
     <div class="">
@@ -55,6 +55,7 @@ export default {
 #nav {
   /* padding: 15px; */
   color: white;
+  margin-top: 30px;
   /* background-color: #827ffe; */
 }
 
