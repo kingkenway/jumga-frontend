@@ -28,3 +28,7 @@ JUMGA'S DELIVERY COMMISSION = 20%
   
 ### Cont'd
 Through this [link](https://jumgaapp.netlify.app/admin/transactions), Jumga as the sovereign will be able to view every single transaction on the database, alongside with all of Jumga's earnings and also every single order on the database.  
+
+## Epilogue  
+The overall developer challenge can be viewed live in this [link](https://jumgaapp.netlify.app/).  
+Please note that developer account anchoring this project is in Test mode. To test any transactions, please use this test cards on this [lutterwave test cards page.](https://developer.flutterwave.com/docs/test-cards)
