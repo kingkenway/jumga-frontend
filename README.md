@@ -1,7 +1,13 @@
 # jumga
 
 ### Introduction
-Project jumga is a full stack powered with Vue.js as the frontend and Django as the backend.
+Project Jumga is a Full stack application, powered with Vue.js as the frontend and Django as the backend.  
+It is a payment system powered by flutterwave, to help businesses grow with a robust interface
+
+
+
+
+
 
 ## Project setup
 ```
