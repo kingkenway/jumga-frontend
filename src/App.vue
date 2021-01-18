@@ -113,7 +113,7 @@ a{
 .w3-contentx{
   margin-left:auto;
   margin-right:auto;
-  max-width:1380px;
+  max-width:1100px;
 }
 
 .blue1{
