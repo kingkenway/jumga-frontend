@@ -2,7 +2,7 @@
   <div class="w3-padding-small">
 		<!-- <div class="login-header">SIGN UP</div> -->
 
-		<div class="main">
+		<div class="main w3-padding-small">
       <div class="w3-center w3-xlarge">
         Welcome back!
         <br>

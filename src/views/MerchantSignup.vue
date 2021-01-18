@@ -2,7 +2,7 @@
   <div class="main w3-padding-small">
 		<!-- <div class="login-header">SIGN UP</div> -->
 
-		<div class="main-2">
+		<div class="main-2 w3-padding-small">
       <div class="w3-center w3-xlarge">
         Apply to Sell
         <br>
