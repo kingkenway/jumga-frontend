@@ -68,7 +68,7 @@
 
         <hr />
         
-        <router-link :to="{ name: 'signupmerchant' }" class="w3-bar-item">
+        <router-link :to="{ name: 'loginmerchant' }" class="w3-bar-item">
           <div class="w3-small w3-center">
             Already have an account? <u>Log In</u>
           </div>      
