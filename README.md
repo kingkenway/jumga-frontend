@@ -12,7 +12,7 @@ Also, when a Merchant signs up, he is faced with a selection box to pick any cou
 Whatever country that is picked becomes the base currency for his/her shop and its products.  
 
 Once the products of an approved shop is listed by the merchant, such shop can be viewed live for customers to checkout, make purchases and do good business.
-Also Merchants can view all available orders, whether paid or cancelled.  
+Also Merchants can view all available orders, whether paid or cancelled on his dashboard.  
   
 An Admin Merchant account has been created for JUMGA already, with the following credentials: Email: "jumga@gmail.com", Password: "aaaassss".
 It is through this account that all earnings from the proceeds of Shop Approvals, Commision from Sales and Commision from Delivery are being remitted.  
