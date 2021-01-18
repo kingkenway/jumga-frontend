@@ -16,7 +16,7 @@
             DELIVERY FEE: {{user.country.currency}} {{this.$helpers.fmtNumber(shop.delivery_fee)}}
         </div>
 
-        <div class="w3-border w3-round-large i-block w3-padding-small w3-margin-right w3">
+        <div class="w3-border w3-round-large i-block w3-padding-small w3-margin-right">
             <span v-if="!shop.is_active">
                 DISPATCH RIDER: Not yet assigned.
             </span>
@@ -25,7 +25,7 @@
             </span>
         </div>
 
-        <div class="w3-round-large i-block w3-padding-small w3-margin-right"
+        <div class="w3-border w3-round-large i-block w3-padding-small w3-margin-right"
         :class="shop.is_active ? 'w3-green': 'w3-red'"
         v-if="!shop.is_active">
             <div @click="makePayment">
