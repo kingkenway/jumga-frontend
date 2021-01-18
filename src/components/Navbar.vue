@@ -1,27 +1,30 @@
 <template>
-  <div id="nav" class="w3-contentx w3-padding w3-bar">
+  <div id="nav" class="w3-contentx w3-padding-small w3-bar">
 
 
-    <div>
+    <div class="">
 
-        <router-link :to="{ name: 'home' }" class="">
-            H O M E
-        </router-link>
+        <div class="">
+          <router-link :to="{ name: 'home' }" class="w3-bar-item">
+              J . U . M . G . A
+          </router-link>
+        </div>
 
-        <span class="w3-right">
-            <span v-if="!isLoggedIn">
-                <router-link :to="{ name: 'about' }" class="w3-bar-item">ABOUT</router-link>
-                <router-link :to="{ name: 'loginmerchant' }" class="w3-bar-item item-nav w3-text-white w3-card">LOGIN / SIGNUP</router-link>
-            </span>
+        <div class="w3-right">
+            <div class="w3-right-align" v-if="!isLoggedIn">
+                <!-- <router-link :to="{ name: 'about' }" class="w3-bar-item">ABOUT</router-link> -->
+                <router-link :to="{ name: 'loginmerchant' }" class="w3-bar-item">LOGIN</router-link>
+                <router-link :to="{ name: 'signupmerchant' }" class="w3-bar-item item-nav w3-text-white w3-card">SIGNUP</router-link>
+            </div>
 
-            <span v-else>
+            <div class="w3-right-align" v-else>
                 <router-link :to="{ name: 'profile' }" class="w3-bar-item">
-                    Welcome, {{user.first_name}}
+                    Hi, {{user.first_name}}
                 </router-link>
                 <router-link :to="{ name: 'logout' }" class="w3-bar-item item-nav w3-text-white w3-card">Logout</router-link>
-            </span>
+            </div>
 
-        </span>
+        </div>
 
     </div>
 
@@ -43,7 +46,7 @@ export default {
 
 <style>
 .item-nav{
-  background-color: #4A61DD;
+  background-color: #1d4476cb;
   color: #fff;
   margin: 0 3px 0 3px;
   border-radius: 5px;

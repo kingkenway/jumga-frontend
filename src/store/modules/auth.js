@@ -10,12 +10,16 @@ const state = {
     refresh: localStorage.getItem('refresh') || '',
     user: JSON.parse(localStorage.getItem('user')) || '',
 
+    base_url: process.env.VUE_APP_BASE_URL,
+
     authError: {
       merchantLoginError:null,
       merchantSignupError: null,
       customerSignupError: null
     },
     countries: [],
+
+    sidebarStatus: ""
 };
 
 const getters = {
@@ -108,9 +112,34 @@ const actions = {
 
         })
     })
-
-
   },
+
+  // Update Password
+  updatePassword ({ commit }, userInfo) {
+    return new Promise((resolve, reject) => {
+      axios.put(
+        "auth/password/update/", userInfo
+      ).then(response => {          
+          resolve(response);
+        }, error => {
+          reject(error);
+        })
+    })
+  },
+
+  // Update Profile
+  updateProfile ({ commit }, userInfo) {
+    return new Promise((resolve, reject) => {
+      axios.put(
+        `auth/profile/${userInfo.id}`, userInfo.data
+      ).then(response => {          
+          resolve(response);
+        }, error => {
+          reject(error);
+        })
+    })
+  },
+
 
   async refreshToken ({ commit }, token) {
     commit('auth_refresh_success', {token})
@@ -164,6 +193,10 @@ const mutations = {
   },
 
   initiate_logout(state, payload){
+    state.user = {}
+    state.refresh = ''
+    state.token = ''
+
     setTimeout(function(){
       localStorage.removeItem('vuex')
       
@@ -175,6 +208,10 @@ const mutations = {
       router.push({name: 'loginmerchant'})
     }, 10);
 
+  },
+
+  toggleSidebarStatus(state, data){
+    state.sidebarStatus = data
   },
 
 

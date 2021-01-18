@@ -43,7 +43,6 @@ const routes = [
     component: () => import('../views/MerchantLogin.vue')
   },
 
-
   {
     path: '/merchant/dashboard',
     name: 'merchantdashboard',
@@ -63,6 +62,14 @@ const routes = [
       },
       
       {
+        path: 'orders',
+        name: 'orders',
+        components:{
+          default: () => import('../views/Merchant/Orders.vue'),
+        }
+      },
+
+      {
         path: 'shops',
         name: 'shops',
         components:{
@@ -71,20 +78,28 @@ const routes = [
       },
 
       {
-        path: 'add',
+        path: 'shop/add',
         name: 'add_shop',
         components:{
           default: () => import('../views/Merchant/AddShop.vue'),
         }
       },
 
-      {
-        path: 'shopcategories',
-        name: 'shop_categories',
-        components:{
-          default: () => import('../views/Merchant/ShopCategories.vue'),
-        }
-      },
+      // {
+      //   path: 'shop/categories',
+      //   name: 'shop_categories',
+      //   components:{
+      //     default: () => import('../views/Merchant/ShopCategories.vue'),
+      //   }
+      // },
+
+      // {
+      //   path: 'shop/categories/add',
+      //   name: 'add_shop_category',
+      //   components:{
+      //     default: () => import('../views/Merchant/AddCategory.vue'),
+      //   }
+      // },
 
       {
         path: 'profile',
@@ -107,12 +122,69 @@ const routes = [
         name: 'shop_detail',
         components:{
           default: () => import('../views/Merchant/ShopDetail.vue'),
-        }
+        },
       },
+
+      {
+        path: 'shop/:slug/add/product',
+        name: 'add_product',
+        components:{
+          default: () => import('../views/Merchant/Shop/AddProduct.vue'),
+        }
+      }, 
     
     ]
 
   },
+
+  {
+    path: '/admin/earnings',
+    name: 'earnings',
+    component: () => import('../views/Admin/Earnings.vue')
+  },
+  
+  {
+    path: '/admin/transactions',
+    name: 'transactions',
+    component: () => import('../views/Admin/Transactions.vue')
+  },
+
+  {
+    path: '/admin/orders',
+    name: 'allorders',
+    component: () => import('../views/Admin/Orders.vue')
+  },
+
+  {
+    path: '/u/shop/:shopslug',
+    name: 'shop',
+    component: () => import('../views/Shop/Shop.vue')
+  },
+  
+  {
+    path: '/u/shop/:shopslug/checkout',
+    name: 'checkout',
+    component: () => import('../views/Shop/Checkout.vue')
+  },
+
+  {
+    path: '/u/shop/:shopslug/checkout',
+    name: 'checkout',
+    component: () => import('../views/Shop/Checkout.vue')
+  },
+
+  {
+    path: '/u/shop/:shopslug/checkout/success',
+    name: 'success',
+    component: () => import('../views/Shop/Success.vue')
+  },
+
+  {
+    path: '/customer/orders/:email/:contact',
+    name: 'customerorders',
+    component: () => import('../views/Shop/Order.vue')
+  },
+  
 
 ]
 

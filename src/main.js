@@ -8,8 +8,10 @@ import VueAxios from 'vue-axios'
 import contenteditable from 'vue-contenteditable'
 import 'w3-css/w3.css'
 import Flutterwave from 'vue-flutterwave'
- 
-Vue.use(Flutterwave, { publicKey: 'FLWPUBK_TEST-6cbece25a898743b4604bcee583de09b-X' })
+import helpers from './helpers'
+
+const flw_key = process.env.VUE_APP_FLW_PUBLICKEY
+Vue.use(Flutterwave, { publicKey: flw_key })
 
 Vue.use(VueAxios, axios)
 Vue.use(contenteditable)
@@ -50,6 +52,14 @@ Vue.use(VueIziToast);
 
 import moment from 'moment'
 Vue.prototype.moment = moment
+
+const plugin = {
+  install(){
+    Vue.helpers = helpers
+    Vue.prototype.$helpers = helpers
+  }
+}
+Vue.use(plugin)
 
 Vue.config.productionTip = false
 

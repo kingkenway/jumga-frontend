@@ -40,15 +40,27 @@ export default {
 </script>
 
 <style>
+@font-face {
+  font-family: "ProximaNova";
+  src: local("ProximaNova"),
+   url(./assets/fonts/ProximaNova-Light-webfont.woff2) format("truetype");
+}
+
+@font-face {
+  font-family: "ProximaNova2";
+  src: local("ProximaNova2"),
+   url(./assets/fonts/ProximaNova-Reg-webfont.woff2) format("truetype");
+}
+
 html{
   width: 100%;
   height:100%;
   margin: 0;
-  background-color: #f0f0f0;
+  /* background-color: #f0f0f0; */
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: ProximaNova, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* text-align: center; */
@@ -93,7 +105,7 @@ a{
 .w3-sidebar{
 } */
 
-.w3-main-main{
+.w3-move-left{
   margin-left:200px;
   /* background-color: #827ffe; */
 }
@@ -101,6 +113,31 @@ a{
 .w3-contentx{
   margin-left:auto;
   margin-right:auto;
-  max-width:1280px;
+  max-width:1380px;
+}
+
+.blue1{
+  background-color: #2D8CD4;
+}
+
+.dark-blue{
+  background-color: #1d4476cb;
+}
+
+.i-block{
+  display: inline-block;
+}
+
+.w3-main > div{
+  margin-top: 15px;
+}
+
+.error{
+  background-color: #CE3939;
+  padding: 8px;
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+  border-radius: 4px;
 }
 </style>

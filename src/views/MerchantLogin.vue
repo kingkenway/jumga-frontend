@@ -1,36 +1,50 @@
 <template>
-  <div class="signup-main-1x first w3-padding-small">
+  <div class="w3-padding-small">
 		<!-- <div class="login-header">SIGN UP</div> -->
 
-		<div class="main-2">
-			<form @submit.prevent="login">
+		<div class="main">
+      <div class="w3-center w3-xlarge">
+        Welcome back!
+        <br>
+        <span class="w3-small">
+          Thousands of customers await.
+        </span>
+        <hr>
+      </div>
+			<form @submit.prevent="login" autocomplete="on">
 
-        <div class="error">
+        <div class="error" v-if="error_message">
           {{error_message}}
         </div>
 
-        <div class="error">{{ authError['merchantLoginError'] }}<br/>
+        <div class="error" v-if="authError['merchantLoginError']">{{ authError['merchantLoginError'] }}<br/>
         </div>
 
 				<div class="item">
-          <input v-model="email" type="email" class="input" placeholder="Email" value="" required="">
+          <input v-model="email" type="email" class="w3-input" placeholder="Email" value="" required="">
 				</div>
 
         <div class="item">
-          <input v-model="password" type="password" class="input" placeholder="Your Password" value="" required="">
+          <input v-model="password" type="password" class="w3-input" placeholder="Your Password" value="" required="">
         </div>
 
-        <div class="item">
+        <div class="item w3-center">
           <button-spinner
             :is-loading="isLoading"
             :disabled="isLoading"
             :status="status"
             class="button">
-              LOGIN
+              Continue
           </button-spinner>
         </div>
-        
 
+        <hr />
+        
+        <router-link :to="{ name: 'signupmerchant' }" class="w3-bar-item">
+          <div class="w3-small w3-center">
+            New to Jumga? <u>Create an Account</u>
+          </div>      
+        </router-link>
 
 			</form>
 		</div>
@@ -95,4 +109,33 @@ export default {
 
 <style scoped>
 /* @import '../assets/css/login.css'; */
+
+.main{
+  /* background-color: red; */
+  margin-top: 80px !important;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.item{
+  margin-top: 20px;
+}
+
+.button{
+  /* margin: 0 auto; */
+  width: 100%;
+  height: 40px !important;
+  margin-top: 10px;
+  background-color: #1d4476cb !important;
+  color: #fff !important;
+}
+
+.error{
+  background-color: #CE3939;
+  padding: 8px;
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+  border-radius: 4px;
+}
 </style>

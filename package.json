@@ -19,6 +19,7 @@
     "nprogress": "^0.2.0",
     "sass-loader": "^9.0.2",
     "style-loader": "^1.2.1",
+    "tailwindcss": "^2.0.2",
     "v-offline": "^1.2.1",
     "vee-validate": "^3.3.9",
     "vue": "^2.6.11",
