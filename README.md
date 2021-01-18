@@ -1,6 +1,7 @@
 # jumga
 
-Hi!
+### Introduction
+Project jumga is a full stack powered with Vue.js as the frontend and Django as the backend.
 
 ## Project setup
 ```
