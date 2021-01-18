@@ -33,10 +33,10 @@ Through this [link](https://jumgaapp.netlify.app/admin/transactions), Jumga as t
 The overall developer challenge for this project can be viewed live on this [link](https://jumgaapp.netlify.app/).  
 Please note that the developer account connected to this project is in Test mode. Therefore to run any transactions, please use the test cards provided on this [flutterwave test cards page.](https://developer.flutterwave.com/docs/test-cards)  
 N.B  
-The database is populated with 5 riders already:  
+The database is populated with 5 riders for purpose as the Marketplace Delivery men:  
 
-driverabel@gmail.com	Driver Abel	Benson  
-driverbayo@gmail.com	Driver Bayo	Dan  
-driverchris@gmail.com	Driver Chris	Ahmed  
-driverdavid@gmail.com	Driver David	Martins  
-driverenoch@gmail.com	Driver Enoch Ayo  
+1. driverabel@gmail.com	Driver Abel	Benson  
+2. driverbayo@gmail.com	Driver Bayo	Dan  
+3. driverchris@gmail.com	Driver Chris	Ahmed  
+4. driverdavid@gmail.com	Driver David	Martins  
+5. driverenoch@gmail.com	Driver Enoch Ayo  
