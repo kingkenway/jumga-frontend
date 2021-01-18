@@ -1,6 +1,7 @@
 export default{
     setImg: function (img, banner) {
-        if (img != null) return process.env.VUE_APP_BASE_URL + img
+        // if (img != null) return process.env.VUE_APP_BASE_URL + img
+        if (img != null) return img
         else if (banner == "product") return require("@/assets/flower.png")
         else if (banner) return require("@/assets/banner.png")
         return require("@/assets/blank.png")
