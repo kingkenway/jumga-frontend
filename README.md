@@ -5,12 +5,13 @@
 It is a payment system powered by flutterwave, to help Merchants grow their businesses with ease.
 
 ### Overview
-Firstly, a Merchant signups up for free, afterwards he is able to create as many shops as possible with $20 each.  
-Upon payment confirmation, the shop is assigned a rider automatically and also allowed to add products to his/her shop and can also go Live instantly.
-Also, when a user signs up, he is faced with a selection box to pick any country of his choice between Nigeria, Ghana, Kenya and the United Kingdom.
-Whatever country that is been picked becomes the base currency for his/her shop and its products.  
+Firstly, a Merchant signups up for free, afterwards he is able to create as many shops as possible for as low as $20 each.  
+Upon payment confirmation, the shop is assigned a rider automatically and also allowed to add products to his/her shop and can also go Live instantly for customers to run their transactions.
+Also, when a Merchant signs up, he is faced with a selection box to pick any country of his choice between Nigeria, Ghana, Kenya and the United Kingdom.
+Whatever country that is picked becomes the base currency for his/her shop and its products.  
 
 Once the products of an approved shop is listed by the merchant, such shop can be viewed live for customers to checkout, make purchases and do good business.
+Also Merchants can view all available orders, whether paid or cancelled.  
   
 An Admin Merchant account has been created for JUMGA already, with the following credentials: Email: "jumga@gmail.com", Password: "aaaassss".
 It is through this account that all earnings from the proceeds of Shop Approvals, Commision from Sales and Commision from Delivery are being remitted.  
@@ -32,8 +33,7 @@ Through this [link](https://jumgaapp.netlify.app/admin/transactions), Jumga as t
 ## Epilogue  
 The overall developer challenge for this project can be viewed live on this [link](https://jumgaapp.netlify.app/).  
 Please note that the developer account connected to this project is in Test mode. Therefore to run any transactions, please use the test cards provided on this [flutterwave test cards page.](https://developer.flutterwave.com/docs/test-cards)  
-N.B  
-The database is populated with 5 riders for purpose as the Marketplace Delivery men:  
+N.B The database is populated with 5 riders for purpose as the Marketplace Delivery men:  
 
 1. driverabel@gmail.com	Driver Abel	Benson  
 2. driverbayo@gmail.com	Driver Bayo	Dan  
