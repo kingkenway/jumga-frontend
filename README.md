@@ -1,4 +1,4 @@
-# J.U.M.G.A
+# Flutterwave Developer Challenge (J.U.M.G.A)
 
 ### Introduction
 [Project Jumga](https://jumgaapp.netlify.app/) is a Full stack application, powered with VueJS as the frontend and [Django as the backend](https://github.com/kingkenway/jumga/).
