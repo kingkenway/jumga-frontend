@@ -82,11 +82,11 @@
     <div class="w3-padding w3-contentx w3-row" style="">
       <div class="w3-row">
 
-        <div class="w3-col l6 m6 s12 w3-left-align">
+        <div class="w3-col l6 m6 s12 footer-a">
           Made with <i class="fa fa-heart w3-text-red"></i> in Nigeria.
         </div>
 
-        <div class="w3-col l6 m6 s12 w3-right-align">
+        <div class="w3-col l6 m6 s12 footer-b">
           &copy; 2021 Jumga Technologies. All Rights Reserved.
         </div>
 
@@ -150,6 +150,14 @@ box-shadow: 5px 2px 12px -2px rgba(90,136,138,1);
   display:grid; grid-template-columns: repeat(2, 1fr);
 }
 
+.footer-a{
+  text-align: left;
+}
+
+.footer-b{
+  text-align: right;
+}
+
 .signup-btn{
   background-color: #1d4476cb;
   color: white;
@@ -162,6 +170,14 @@ box-shadow: 5px 2px 12px -2px rgba(90,136,138,1);
   .header-1{
     font-size: 48px;
   }
+
+  .footer-a{
+    text-align: center;
+  }
+
+  .footer-b{
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -172,6 +188,7 @@ box-shadow: 5px 2px 12px -2px rgba(90,136,138,1);
   .b2{
     margin-top: -90px;
   }
+
 }
 
 </style>
