@@ -12,8 +12,10 @@ Whatever country that is been picked becomes the base currency for his/her shop 
 An Admin Merchant account has been created for Jumga already, with the following credentials: Email: "jumga@gmail.com", Password: "aaaassss".
 It is through this account that all earnings from the proceeds of Shop Approvals, Commision from Sales and Commision from Delivery are being remitted.  
   
-From the MVP requirements, no commission ratio was given, thus from the example given, this was the sharing ratio:  
+From the MVP requirements, no commission ratio was stated for Sales and Delivery, thus the following commission from the given example in the MVP requirements, with the workings at the end of this README, was shared as follows:  
+### Sales
 MERCHANT'S COMMISSION ON SALE = 97.4%  
 JUMGA'S COMMISSION ON SALE = 2.6%  
+### Delivery
 RIDER'S DELIVERY COMMISSION = 80%  
 JUMGA'S DELIVERY COMMISSION = 20%  
