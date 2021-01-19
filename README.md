@@ -43,13 +43,13 @@ JUMGA'S DELIVERY COMMISSION = 20%
 Through this [link](https://jumgaapp.netlify.app/admin/transactions), Jumga as the sovereign will be able to view every single transaction on the database, alongside with all of Jumga's earnings and also every single order on the database.  
 
 ### Implementation  
-1. The first instance where the Flutterwave package was initialized is [here](https://github.com/kingkenway/jumga-frontend/blob/master/src/main.js) on line 10, 13 and 14.  
+1. The first instance where the Flutterwave package was initialized is [here](https://github.com/kingkenway/jumga-frontend/blob/master/src/main.js#L10) on line 10, 13 and 14.  
 
-2. The second implementation of flutterwave on Shop Approval, can be found on this [link](https://github.com/kingkenway/jumga-frontend/blob/master/src/views/Merchant/ShopDetail.vue) from line 106 to line 149.  
+2. The second implementation of flutterwave on Shop Approval, can be found on this [link](https://github.com/kingkenway/jumga-frontend/blob/master/src/views/Merchant/ShopDetail.vue#L106) from line 106 to line 149.  
 
-3. The third implementation on Checkout, can be found on this [link](https://github.com/kingkenway/jumga-frontend/blob/master/src/views/Shop/Checkout.vue) from line 260 to line 305.  
+3. The third implementation on Checkout, can be found on this [link](https://github.com/kingkenway/jumga-frontend/blob/master/src/views/Shop/Checkout.vue#L260) from line 260 to line 305.  
 
-4. The business logic where all transactions and payments resides, can be found [here](https://github.com/kingkenway/jumga/blob/master/jumga/apps/merchant/models.py) from line 324 to line 408.  
+4. The business logic where all transactions and payments resides, can be found [here](https://github.com/kingkenway/jumga/blob/master/jumga/apps/merchant/models.py#L324) from line 324 to line 408.  
 
 ## Epilogue  
 The overall developer challenge for this project can be viewed live on this [link](https://jumgaapp.netlify.app/).  
