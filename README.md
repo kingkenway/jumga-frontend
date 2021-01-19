@@ -75,3 +75,21 @@ Also once again, please note that after each transaction, you can use this [link
 
 10. Shop with delivery info  
 ![Shop with delivery info](https://i.ibb.co/F035MdY/10-shop-with-delivery-info.png)  
+
+11. Checkout page  
+![Checkout page](https://i.ibb.co/y6FFTbn/11-shop-with-check-out-info.png)  
+
+12. Order Success page  
+![Order Success page](https://i.ibb.co/NLtjj4f/12-order-success.png)  
+
+13. Customer order tracking page  
+![Shop with delivery info](https://i.ibb.co/YXbQ602/13-customer-order-tracking-page.png)  
+
+14. Jumga's Admin view for all Transactions for recipients  
+![Jumga's Admin view for all Transactions for recipients](https://i.ibb.co/X4J1Ghr/14-jumga-s-view-for-all-transactions.png)  
+
+15. Jumga's Admin view for Jumga's Earnings  
+![Jumga's Admin view for Jumga's Earnings](https://i.ibb.co/QjW6LvL/15-jumga-s-view-for-jumga-s-earnings.png)  
+
+16. Jumga's Admin view for All Orders  
+![Jumga's Admin view for All Orders](https://i.ibb.co/Wx2qjdd/16-jumga-s-view-for-all-orders.png)  
