@@ -110,3 +110,30 @@ Also once again, please note that after each transaction, you can use this [link
 
 16. Jumga's Admin view for All Orders  
 ![Jumga's Admin view for All Orders](https://i.ibb.co/Wx2qjdd/16-jumga-s-view-for-all-orders.png)  
+
+
+
+## Installation
+
+The first thing to do is to clone the repository:
+
+```sh
+$ git clone https://github.com/kingkenway/jumga-frontend.git
+$ cd jumga-frontend
+```
+
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn run build
+```
+### Also, #EndSARS
