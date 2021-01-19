@@ -5,7 +5,7 @@
 It is a payment system powered by flutterwave, to help Merchants grow their businesses with ease.
 
 ### Overview
-Firstly, a Merchant [signs up](https://jumgaapp.netlify.app/signup/merchant) for free, afterwards he is able to create as many shops as possible for as low as $20 each for approval. This amount is credited instantly to JUMGA'S account.  
+Firstly, a Merchant [signs up](https://jumgaapp.netlify.app/signup/merchant) for free, afterwards he is able to create as many shops as possible for as low as $20 each on approval. This amount is credited instantly to JUMGA'S account.  
 
 Upon payment confirmation, the shop is assigned a rider automatically and also allowed to add products to his/her shop and can also go Live instantly for customers to run their transactions.
 Also, when a Merchant signs up, he is faced with a selection box to pick any country of his choice between Nigeria, Ghana, Kenya and the United Kingdom.
