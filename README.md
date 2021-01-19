@@ -60,3 +60,18 @@ Also once again, please note that after each transaction, you can use this [link
 
 5. Shop display after payment on approval  
 ![Shop display after payment on approval](https://i.ibb.co/F8WCb8b/5-shop-display-after-approval.png)  
+
+6. New Product Page  
+![New Product Page](https://i.ibb.co/yRVXMzY/6-new-product-page.png)  
+
+7. Shop display with Products  
+![Shop display with Products](https://i.ibb.co/qx5VQkZ/7-shop-display-with-products.png)  
+
+8. Shop live  
+![Shop live](https://i.ibb.co/34WS4Lg/8-shop-live.png)  
+
+9. Shop live with added cart  
+![Shop live with added cart](https://i.ibb.co/5j3KByc/9-shop-with-added-carts.png)  
+
+10. Shop with delivery info  
+![Shop with delivery info](https://i.ibb.co/F035MdY/10-shop-with-delivery-info.png)  
