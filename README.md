@@ -6,8 +6,10 @@
 
 ### Introduction  
 
-<img src="https://i.ibb.co/1Kz7T8Q/17-home.png" width="700" height="300">
-(Home Page)  
+<center>
+<img src="https://i.ibb.co/1Kz7T8Q/17-home.png" width="700" height="450">
+(Home Page)
+</center>  
   
 [Project Jumga](https://jumgaapp.netlify.app/) is a Full stack application, powered with VueJS as the frontend and [Django as the backend](https://github.com/kingkenway/jumga/).
 It is a payment system powered by flutterwave, to help Merchants grow their businesses with ease.
