@@ -47,7 +47,7 @@ Also once again, please note that after each transaction, you can use this [link
 
 ## Image Timeline of Flutterwave Developer Challenge  
 1. Merchant Signup Page  
-![Merchant Signup Page](https://raw.githubusercontent.com/kingkenway/jumga-frontend/master/git_images/1.%20signup.png?token=AHAQS73R2DPWYXOTUTATJQDAA4LAY)  
+![Merchant Signup Page](https://i.ibb.co/PwC8LcQ/1-signup.png)  
 
 2. Merchant Dashboard Page  
 ![Merchant Dashboard Page](https://raw.githubusercontent.com/kingkenway/jumga-frontend/master/git_images/2.%20dashboard.png?token=AHAQS7Y3T4PCGH23R2JQDQ3AA4KTO)  
