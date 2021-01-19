@@ -1,9 +1,6 @@
 # Flutterwave Developer Challenge (J.U.M.G.A)  
 
-## Table of Contents
-[Live URL](https://jumgaapp.netlify.app/)  
-
-[TL;DR](#image-timeline-of-the-flutterwave-developer-challenge) 
+## Table of Contents  
 
 [Introduction](#introduction) 
 
@@ -27,7 +24,11 @@
 [Project Jumga](https://jumgaapp.netlify.app/) is a Full stack application, powered with VueJS as the frontend and [Django as the backend](https://github.com/kingkenway/jumga/).
 It is a payment system powered by flutterwave, to help Merchants grow their businesses with ease.
 
-### Overview
+### Overview  
+[Live URL](https://jumgaapp.netlify.app/)  
+
+[TL;DR](#image-timeline-of-the-flutterwave-developer-challenge) 
+
 1.) Firstly, a Merchant [signs up](https://jumgaapp.netlify.app/signup/merchant) for free, afterwards the Merchant is able to create as many shops as possible for as low as $20 each on approval. This amount is credited instantly to JUMGA'S account, which can be viewed through this [page.](https://jumgaapp.netlify.app/admin/transactions)  
 
 2.) Upon payment confirmation, the shop is assigned a rider automatically and is also allowed to add products to his/her shop and can also go Live instantly for customers to make their purchases.
