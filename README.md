@@ -57,3 +57,6 @@ Also once again, please note that after each transaction, you can use this [link
 
 4. Shop created awaiting approval  
 ![Shop created awaiting approval](https://raw.githubusercontent.com/kingkenway/jumga-frontend/master/git_images/4.%20shop_awaiting_approval.png?token=AHAQS75WKDRUAN34P6YFOCLAA4LPU)  
+
+5. Shop display after payment on approval  
+![Shop display after payment on approval](https://raw.githubusercontent.com/kingkenway/jumga-frontend/master/git_images/5.%20shop_display_after_approval.png?token=AHAQS7YBI7FMU42HRR6VMVDAA4LXC)  
