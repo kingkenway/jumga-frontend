@@ -47,4 +47,4 @@ Also once again, please note that after each transaction, you can use this [link
 
 ## Image Timeline of FLutterwave Developer Challenge  
 1. Merchant Signup Page  
-(https://raw.githubusercontent.com/kingkenway/jumga-frontend/master/git_images/1.%20signup.png?token=AHAQS767AJQDYXBPSAMY26DAA4J5Y)  
+![Merchant Signup Page](https://raw.githubusercontent.com/kingkenway/jumga-frontend/master/git_images/1.%20signup.png?token=AHAQS767AJQDYXBPSAMY26DAA4J5Y)  
