@@ -50,13 +50,13 @@ Also once again, please note that after each transaction, you can use this [link
 ![Merchant Signup Page](https://i.ibb.co/PwC8LcQ/1-signup.png)  
 
 2. Merchant Dashboard Page  
-![Merchant Dashboard Page](https://raw.githubusercontent.com/kingkenway/jumga-frontend/master/git_images/2.%20dashboard.png?token=AHAQS7Y3T4PCGH23R2JQDQ3AA4KTO)  
+![Merchant Dashboard Page](https://i.ibb.co/8gxXPy3/2-dashboard.png)  
 
 3. Merchant Create Shop Page  
-![Merchant Create Shop Page](https://raw.githubusercontent.com/kingkenway/jumga-frontend/master/git_images/3.%20create_shop.png?token=AHAQS726XQE4L4BUPKJ76C3AA4KXO)  
+![Merchant Create Shop Page](https://i.ibb.co/JztvKvn/3-create-shop.png)  
 
 4. Shop created awaiting approval  
-![Shop created awaiting approval](https://raw.githubusercontent.com/kingkenway/jumga-frontend/master/git_images/4.%20shop_awaiting_approval.png?token=AHAQS75WKDRUAN34P6YFOCLAA4LPU)  
+![Shop created awaiting approval](https://i.ibb.co/X5K4ynV/4-shop-awaiting-approval.png)  
 
 5. Shop display after payment on approval  
-![Shop display after payment on approval](https://raw.githubusercontent.com/kingkenway/jumga-frontend/master/git_images/5.%20shop_display_after_approval.png?token=AHAQS7YBI7FMU42HRR6VMVDAA4LXC)  
+![Shop display after payment on approval](https://i.ibb.co/F8WCb8b/5-shop-display-after-approval.png)  
