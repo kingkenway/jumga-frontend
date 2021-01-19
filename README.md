@@ -55,3 +55,5 @@ Also once again, please note that after each transaction, you can use this [link
 3. Merchant Create Shop Page  
 ![Merchant Create Shop Page](https://raw.githubusercontent.com/kingkenway/jumga-frontend/master/git_images/3.%20create_shop.png?token=AHAQS726XQE4L4BUPKJ76C3AA4KXO)  
 
+4. Shop created awaiting approval  
+![Shop created awaiting approval](https://raw.githubusercontent.com/kingkenway/jumga-frontend/master/git_images/4.%20shop_awaiting_approval.png?token=AHAQS75WKDRUAN34P6YFOCLAA4LPU)  
