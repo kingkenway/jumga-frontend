@@ -84,7 +84,7 @@
       <div class="w3-row">
 
         <div class="w3-col l6 m6 s12 footer-a">
-          Made with <i class="fa fa-heart w3-text-red"></i> in Nigeria.
+          Made with <i class="fa fa-heart w3-text-red"></i> in Nigeria. <a href='https://www.freepik.com/vectors/blue'>Blue vector created by stories - www.freepik.com</a>
         </div>
 
         <div class="w3-col l6 m6 s12 footer-b">
