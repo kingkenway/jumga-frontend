@@ -117,10 +117,16 @@ Also once again, please note that after each transaction, you can use this [link
 
 The first thing to do is to clone the repository:
 
+
 ```sh
 $ git clone https://github.com/kingkenway/jumga-frontend.git
 $ cd jumga-frontend
 ```
+
+## Local Environment Variables
+VUE_APP_URL=https://jumga-backend-tada.herokuapp.com/api/v1/
+VUE_APP_BASE_URL=https://jumga-backend-tada.herokuapp.com/
+VUE_APP_FLW_PUBLICKEY=FLWPUBK_TEST-6cbece25a898743b4604bcee583de09b-X
 
 ## Project setup
 ```
@@ -136,4 +142,4 @@ yarn serve
 ```
 yarn run build
 ```
-### Also, #EndSARS
+
