@@ -45,6 +45,13 @@ N.B The database is populated with 5 riders for purpose as the Marketplace Deliv
 
 Also once again, please note that after each transaction, you can use this [link](https://jumgaapp.netlify.app/admin/transactions) to view all transactions and the sharing history to Jumga, the Riders, the Merchants and the Shop approval fee.
 
-## Image Timeline of FLutterwave Developer Challenge  
+## Image Timeline of Flutterwave Developer Challenge  
 1. Merchant Signup Page  
 ![Merchant Signup Page](https://raw.githubusercontent.com/kingkenway/jumga-frontend/master/git_images/1.%20signup.png?token=AHAQS767AJQDYXBPSAMY26DAA4J5Y)  
+
+2. Merchant Dashboard Page  
+![Merchant Dashboard Page](https://raw.githubusercontent.com/kingkenway/jumga-frontend/master/git_images/2.%20dashboard.png?token=AHAQS7Y3T4PCGH23R2JQDQ3AA4KTO)  
+
+3. Merchant Create Shop Page  
+![Merchant Create Shop Page](https://raw.githubusercontent.com/kingkenway/jumga-frontend/master/git_images/3.%20create_shop.png?token=AHAQS726XQE4L4BUPKJ76C3AA4KXO)  
+
