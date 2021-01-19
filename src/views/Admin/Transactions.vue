@@ -30,10 +30,10 @@
                     <th>Amount</th>
                     <th>Currency</th>
                     <th>Beneficiary</th>
+                    <th>Transaction Ref. From Payment</th>
                     <th>Transaction Id.</th>
                     <th>Transaction Type</th>
                     <th>Narration</th>
-                    <th>Transaction Ref. From Payment</th>
                     <th>Time</th>
                 </tr>
 
@@ -45,10 +45,10 @@
                     <td>{{ $helpers.fmtNumber(parseFloat(tx.amount)) }}</td>
                     <td>{{tx.currency}}</td>
                     <td>{{tx.beneficiary.email}}</td>
+                    <td>{{tx.tx_ref_from_payment.tx_ref}}</td>
                     <td>{{tx.transaction_id}}</td>
                     <td>{{tx.transaction_type}}</td>
                     <td><b>{{tx.narration}}</b></td>
-                    <td>{{tx.tx_ref_from_payment.tx_ref}}</td>
                     <td>{{moment(tx.created_at).format('LLL')}} </td>
 
                 </tr>
