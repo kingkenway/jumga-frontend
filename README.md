@@ -1,6 +1,8 @@
 # Flutterwave Developer Challenge (J.U.M.G.A)  
 [Live URL](https://jumgaapp.netlify.app/)  
 
+[Installation](#installation)  
+
 [TL;DR](#image-timeline-of-the-flutterwave-developer-challenge) 
 
 
@@ -124,9 +126,9 @@ $ cd jumga-frontend
 ```
 
 ## Local Environment Variables
-VUE_APP_URL=https://jumga-backend-tada.herokuapp.com/api/v1/
-VUE_APP_BASE_URL=https://jumga-backend-tada.herokuapp.com/
-VUE_APP_FLW_PUBLICKEY=FLWPUBK_TEST-6cbece25a898743b4604bcee583de09b-X
+VUE_APP_URL=https://jumga-backend-tada.herokuapp.com/api/v1/  
+VUE_APP_BASE_URL=https://jumga-backend-tada.herokuapp.com/  
+VUE_APP_FLW_PUBLICKEY=FLWPUBK_TEST-6cbece25a898743b4604bcee583de09b-X  
 
 ## Project setup
 ```
