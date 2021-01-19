@@ -1,5 +1,7 @@
 # Flutterwave Developer Challenge (J.U.M.G.A)  
 [Live URL](https://jumgaapp.netlify.app/)  
+[TLDR;](image-timeline-of-the-flutterwave-developer-challenge) 
+
 
 ### Introduction
 [Project Jumga](https://jumgaapp.netlify.app/) is a Full stack application, powered with VueJS as the frontend and [Django as the backend](https://github.com/kingkenway/jumga/).
@@ -33,7 +35,7 @@ JUMGA'S DELIVERY COMMISSION = 20%
 Through this [link](https://jumgaapp.netlify.app/admin/transactions), Jumga as the sovereign will be able to view every single transaction on the database, alongside with all of Jumga's earnings and also every single order on the database.  
 
 ### Implementation  
-1. The first instance where the Flutterwave package was initialized is [here.](https://github.com/kingkenway/jumga-frontend/blob/master/src/main.js) on line 10, 13 and 14.  
+1. The first instance where the Flutterwave package was initialized is [here](https://github.com/kingkenway/jumga-frontend/blob/master/src/main.js) on line 10, 13 and 14.  
 
 2. The second implementation of flutterwave on Shop Approval, can be found on this [link](https://github.com/kingkenway/jumga-frontend/blob/master/src/views/Merchant/ShopDetail.vue) from line 106 to line 149.  
 
