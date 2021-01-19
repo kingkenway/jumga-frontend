@@ -6,14 +6,14 @@
 It is a payment system powered by flutterwave, to help Merchants grow their businesses with ease.
 
 ### Overview
-Firstly, a Merchant [signs up](https://jumgaapp.netlify.app/signup/merchant) for free, afterwards he is able to create as many shops as possible for as low as $20 each on approval. This amount is credited instantly to JUMGA'S account.  
+Firstly, a Merchant [signs up](https://jumgaapp.netlify.app/signup/merchant) for free, afterwards the Merchant is able to create as many shops as possible for as low as $20 each on approval. This amount is credited instantly to JUMGA'S account.  
 
 
-Upon payment confirmation, the shop is assigned a rider automatically and also allowed to add products to his/her shop and can also go Live instantly for customers to run their transactions.
+Upon payment confirmation, the shop is assigned a rider automatically and is also allowed to add products to his/her shop and can also go Live instantly for customers to make their purchases.
 Also, when a Merchant signs up, he is faced with a selection box to pick any country of his choice between Nigeria, Ghana, Kenya and the United Kingdom.
 Whatever country that is picked becomes the base currency for his/her shop and its products.  
 
-Once the products of an approved shop is listed by the merchant, such shop can be viewed live for customers to checkout, make purchases and do good business.
+Once the products of an approved shop is listed by the merchant, such shop can be viewed live for customers to checkout with a form where they fill in their delivery details with country choices ranging from Ghana, Nigeria, Kenya and UK, make purchases.
 Also Merchants can view all available orders, whether paid or cancelled on his dashboard.  
   
 An Admin Merchant account has been created for JUMGA already, with the following credentials: Email: "jumga@gmail.com", Password: "aaaassss".
@@ -46,7 +46,7 @@ N.B The database is populated with 5 riders for purpose as the Marketplace Deliv
 
 Also once again, please note that after each transaction, you can use this [link](https://jumgaapp.netlify.app/admin/transactions) to view all transactions and the sharing history to Jumga, the Riders, the Merchants and the Shop approval fee.
 
-## Image Timeline of Flutterwave Developer Challenge  
+## Image Timeline of the Flutterwave Developer Challenge  
 1. Merchant Signup Page  
 ![Merchant Signup Page](https://i.ibb.co/PwC8LcQ/1-signup.png)  
 
