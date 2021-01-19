@@ -1,10 +1,14 @@
 <template>
     <div class="w3-main w3-move-left w3-padding">
-         <div class="w3-row">
+         <!-- <div class="w3-row">
           <div class="w3-col l9 w3-xlarge">
             Add New Product - {{shop.name}}
           </div>
-         </div>
+         </div> -->
+
+       <Topbar :current_shop="shop">
+           Add New Product -
+       </Topbar>
 
         <hr />
 
@@ -55,6 +59,7 @@
 import { mapState, mapGetters, mapActions } from 'vuex'
 import VueButtonSpinner from 'vue-button-spinner';
 import { operatorValues } from '@/utils/utils'
+import Topbar from '@/components/Shop/Topbar.vue'
 
 export default {
     name: "AddProduct",
@@ -117,8 +122,9 @@ export default {
 
     components: {
         'button-spinner': VueButtonSpinner,
+        Topbar
     },
-
+    
     created: function () {
         
     },

@@ -1,6 +1,6 @@
 <template>
     <div class="w3-main w3-move-left w3-padding">
-        <div class="w3-row">
+        <!-- <div class="w3-row">
           <div class="w3-col l10 m9 s12 w3-xlarge">
             {{shop.name}} - {{$helpers.checkDescription(shop.description)}}
           </div>
@@ -8,15 +8,23 @@
           <div class="w3-round w3-center w3-card w3-col l2 m3 s12 w3-padding w3-text-white dark-blue i-block" v-if="shop.is_active">
             <router-link :to="{  name: 'add_product' }">+ Add Product</router-link>
           </div>
-       </div>
+       </div> -->
+
+       <Topbar :current_shop="shop" />
 
         <hr />
+
+        <div class="w3-round w3-center w3-card w3-padding w3-margin-right w3-text-white dark-blue i-block" v-if="shop.is_active">
+            <router-link :to="{  name: 'add_product' }">+ Add Product</router-link>
+        </div>
         
-        <div class="w3-border w3-round-large i-block w3-padding-small w3-margin-right">
+        <!-- <div class="w3-border w3-round-large i-block w3-padding-small w3-margin-right"> -->
+        <div class="w3-round w3-center w3-card w3-padding w3-margin-right i-block">
             DELIVERY FEE: {{user.country.currency}} {{this.$helpers.fmtNumber(shop.delivery_fee)}}
         </div>
 
-        <div class="w3-border w3-round-large i-block w3-padding-small w3-margin-right">
+        <!-- <div class="w3-border w3-round-large i-block w3-padding-small w3-margin-right"> -->
+        <div class="w3-round w3-center w3-card w3-padding w3-margin-right i-block">
             <span v-if="!shop.is_active">
                 DISPATCH RIDER: Not yet assigned.
             </span>
@@ -25,7 +33,7 @@
             </span>
         </div>
 
-        <div class="w3-border w3-round-large i-block w3-padding-small w3-margin-right"
+        <div class="w3-round w3-center w3-card w3-padding w3-margin-right i-block"
         :class="shop.is_active ? 'w3-green': 'w3-red'"
         v-if="!shop.is_active">
             <div @click="makePayment">
@@ -33,13 +41,13 @@
             </div>
         </div>
 
-        <router-link :to="{ name: 'shop', params: {shopslug: shop.sub_domain} }">
 
-        <div class="w3-round-large w3-card i-block w3-padding-small w3-margin-right w3-teal" v-if="shop.is_active">
-            VIEW LIVE        
+        <div class="w3-round w3-center w3-card w3-padding w3-margin-right i-block w3-teal" v-if="shop.is_active">
+            <router-link :to="{ name: 'shop', params: {shopslug: shop.sub_domain} }">
+                VIEW LIVE        
+            </router-link>
         </div>
 
-        </router-link>
 
         <hr />
 
@@ -78,6 +86,7 @@
 
 <script>
 import { mapState, mapGetters, mapActions } from 'vuex'
+import Topbar from '@/components/Shop/Topbar.vue'
 
 export default {
     name: "ShopDetail",
@@ -163,6 +172,10 @@ export default {
         .catch((err) => {
             // this.isLoading = false
         })
+    },
+
+    components: {
+        Topbar
     },
 
 };
