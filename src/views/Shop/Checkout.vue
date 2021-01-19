@@ -41,6 +41,16 @@
                             <input v-model="customer_city" type="text" class="w3-input" placeholder="Your City" value="" required="">
                         </div>
 
+                        <div class="item w3-half w3-padding">
+                            <select v-model="customer_country" class="w3-select w3-white" required="">
+                                <option selected="" value="">Select Country</option>
+                                <option value="Ghana">Ghana</option>
+                                <option value="Nigeria">Nigeria</option>
+                                <option value="Kenya">Kenya</option>
+                                <option value="Ghana">Ghana</option>
+                            </select>
+                        </div>
+
                     
                     </div>
                     
@@ -82,6 +92,10 @@
 
                         <div>
                             <p>YOUR CITY: {{this.customer_city}}</p>
+                        </div>
+
+                        <div>
+                            <p>YOUR COUNTRY: {{this.customer_country}}</p>
                         </div>
                     </div>
                     
@@ -175,7 +189,8 @@ export default {
             customer_email: '',
             customer_contact: '',
             customer_address: '',
-            customer_city: ''
+            customer_city: '',
+            customer_country: ''
         }
     },
 
@@ -194,6 +209,7 @@ export default {
                 customer_contact: this.customer.customer_contact,
                 customer_address: this.customer.customer_address,
                 customer_city: this.customer.customer_city,
+                customer_country: this.customer.customer_country,
                 customer_instruction: '',
 
                 cart: this.cart                
@@ -218,7 +234,8 @@ export default {
                 customer_email: this.customer_email,
                 customer_contact: this.customer_contact,
                 customer_address: this.customer_address,
-                customer_city: this.customer_city
+                customer_city: this.customer_city,
+                customer_country: this.customer_country,
             }
 
             this.set_customer(data)
@@ -291,11 +308,13 @@ export default {
     
     created: function () {
         // if (this.customer.length){
+        // if(!Vue.isObjectEmpty(this.customer)){
             this.customer_name = this.customer.customer_name
             this.customer_email = this.customer.customer_email
             this.customer_contact = this.customer.customer_contact
             this.customer_address = this.customer.customer_address
             this.customer_city = this.customer.customer_city
+            this.customer_country = this.customer.customer_country || ''
         // }
     },
 

@@ -19,4 +19,15 @@ export default{
     reformat: function (item) {
         return typeof(item) == 'undefined' ? '' : item
     },
+
+    isObjectEmpty: function(obj) {
+        alert(12)
+        for(const prop in obj) {
+            if(Object.prototype.hasOwnProperty.call(obj, prop)) {
+            return false;
+            }
+        }
+        
+        return JSON.stringify(obj) === JSON.stringify({});
+    }
 }
