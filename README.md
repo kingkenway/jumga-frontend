@@ -1,9 +1,21 @@
 # Flutterwave Developer Challenge (J.U.M.G.A)  
+
+## Table of Contents
 [Live URL](https://jumgaapp.netlify.app/)  
 
-[Installation](#installation)  
-
 [TL;DR](#image-timeline-of-the-flutterwave-developer-challenge) 
+
+[Introduction](#introduction) 
+
+[Cont'd](#contd) 
+
+[Implementation](#implementation) 
+
+[Epilogue](#epilogue) 
+
+[Image Timeline of the Flutterwave Developer Challenge](#image-timeline-of-the-flutterwave-developer-challenge)  
+
+[Installation](#installation)  
 
 
 ### Introduction  
