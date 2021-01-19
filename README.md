@@ -6,7 +6,7 @@
 
 ### Introduction  
 
-<img src="https://i.ibb.co/1Kz7T8Q/17-home.png" style="width: 100%">
+<img src="https://i.ibb.co/1Kz7T8Q/17-home.png" style="width: 100%">  
 (Home Page)  
   
 [Project Jumga](https://jumgaapp.netlify.app/) is a Full stack application, powered with VueJS as the frontend and [Django as the backend](https://github.com/kingkenway/jumga/).
